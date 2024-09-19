@@ -16,6 +16,6 @@ O projeto consiste em uma página web simples, e acessível, que oferece informa
 ## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica da página.
-- **CSS3**: Estilização da página, com foco em cores, layout e responsividade.
+- **CSS3**: Estilização da página.
 - **Flexbox**: Utilizado para posicionar as imagens e textos de forma fluida.
 - **SVG**: Ícone SVG utilizado como favicon.
