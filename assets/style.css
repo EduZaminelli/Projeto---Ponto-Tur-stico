@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alice', serif;
+    background-color: #18181b;
+    color: #f4f4f5;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg-tangua.jpg') no-repeat center center/cover;
+    color: #f4f4f5;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.section-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+.section-with-image .text-content {
+    flex: 1;
+    max-width: 700px;
+}
+
+.section-with-image .image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    flex: 1;
+}
+
+.section-with-image .image-content.left-image {
+    order: -1;
+}
+
+.side-image {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.center-image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #curiosities h2, #contact h2 {
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    color: #fafafa;
+}
+
+#about p, #curiosities ul, #contact p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #e4e4e7;
+}
+
+#curiosities ul {
+    list-style-type: none;
+    padding-left: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#curiosities ul li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+address {
+    text-align: center;
+    font-style: normal;
+    color: #e4e4e7;
+}
+
+footer {
+    background-color: #18181b;
+    color: #f4f4f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1em;
+}
